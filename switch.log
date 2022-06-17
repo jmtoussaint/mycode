@@ -1,0 +1,4 @@
+2022-06-17 14:16:23.180276 10.1.0.1 host:sw22 severity:5 command:interface eth1/2 no shutdown
+2022-06-17 14:16:26.586627 10.2.0.1 host:sw5 severity:5 command:interface eth1/1 no shutdown
+2022-06-17 14:16:29.992246 10.3.0.1 host:sw12 severity:5 command:interface eth1/3 no shutdown
+2022-06-17 14:16:30.993832 10.3.0.1 host:sw12 severity:5 command:interface eth1/5 no shutdown

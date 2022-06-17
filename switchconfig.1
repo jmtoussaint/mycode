@@ -1,0 +1,20 @@
+---
+- switchname: sw22
+  sshtarget: 10.1.0.1
+  commands:
+  - command: interface eth1/2
+    subcommand: "no shutdown"
+
+- switchname: sw5
+  sshtarget: 10.2.0.1
+  commands:
+  - command: interface eth1/1
+    subcommand: "no shutdown"
+
+- switchname: sw12
+  sshtarget: 10.3.0.1
+  commands:
+  - command: interface eth1/3
+    subcommand: "no shutdown"
+  - command: interface eth1/5
+    subcommand: "no shutdown"
